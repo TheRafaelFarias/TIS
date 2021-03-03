@@ -1,0 +1,14 @@
+{
+  "name": "TIS",
+  "version": "1.0.0",
+  "description": "TIS is a minimal programming language only made for study purpose",
+  "main": "index.js",
+  "author": "Rafael Farias",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  },
+  "dependencies": {
+    "typescript": "^4.2.2"
+  }
+}
