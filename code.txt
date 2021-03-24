@@ -1,1 +1,4 @@
 log( A cool message. It doesnt support 'commas' )
+log( testing )
+log( testing )
+log( testing )
