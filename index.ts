@@ -69,7 +69,10 @@ function parser(tokens: Array<IToken[]>) {
               const argumentFiltered = currentTokenList.map((token) => {
                 return token.type == "argument" ? token.value : "";
               });
-              const argument = argumentFiltered.join().replace(/,/g, " ");
+              const argument = argumentFiltered
+                .join()
+                .replace(/,/g, " ")
+                .slice(1, -1);
 
               expression.argument = {
                 type: "StringArgument",
