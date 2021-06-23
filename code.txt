@@ -2,3 +2,9 @@ log( A cool message. It doesnt support 'commas' )
 log( testing )
 log( testing )
 log( testing )
+
+log( a new message )
+log( testing 1+1 )
+
+log( 1+1 )
+log( 2/2 )
