@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "ts-node ./index.ts",
-    "runner": "node ./runner.js"
+    "exec": "node ./runner.js",
+    "runner": "yarn build && yarn run exec"
   },
   "devDependencies": {
     "@types/node": "^14.14.31"
